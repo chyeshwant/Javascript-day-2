@@ -1,0 +1,56 @@
+header {
+    background-color: rgb(59, 56, 56);
+    min-height: 8vh;
+    color: #fff;
+    min-width: 100vw;
+
+    nav {
+        margin: auto;
+        width: 95vw;
+        min-height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // flex-wrap: wrap;
+
+        .leftnav {
+            display: flex;
+            align-items: center;
+            // justify-content: space-between;
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            ul {
+                list-style: none;
+
+                a {
+                    font-size: 1rem;
+                    color: #fff;
+                    text-decoration: none;
+
+                    &:hover {
+                        border-bottom: 0.15rem solid #fff;
+                        padding-bottom: 0.2em;
+                    }
+
+                }
+            }
+
+        }
+
+        section {
+
+            input {
+                border-radius: 0.6rem;
+                outline: none;
+                padding: 0.8rem;
+                width: 12rem;
+                height: 2.3rem;
+                margin: 0.5rem;
+            }
+        }
+
+    }
+}

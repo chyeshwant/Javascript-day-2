@@ -1,0 +1,39 @@
+@import "./container";
+@import "./header";
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 1000px) {
+    textarea {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        text-align: center;
+    }
+    nav {
+        flex-direction: column;
+    }
+    section {
+        margin-bottom: 1rem;
+    }
+}

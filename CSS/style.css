@@ -1,0 +1,180 @@
+.container {
+  margin: 1rem auto;
+  width: 60%;
+}
+
+.container hr {
+  border-top: 1px solid #e0dddd;
+  border-bottom: none;
+  margin: 1rem 0;
+}
+
+.container .card {
+  padding: 0.2rem;
+  border: 1px solid #e0dddd;
+  border-radius: 0.6rem;
+}
+
+.container .card h5 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.container .card textarea {
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+  outline: none;
+  padding: 0.7rem;
+  border-color: #e0dddd;
+}
+
+.container .card button {
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+  outline: none;
+  padding: 0.7rem;
+  background-color: #1491df;
+  color: #fff;
+  width: 7.3rem;
+  height: 2.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.container #yournotes {
+  border: 2px #578585 solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container #yournotes .note-box {
+  border: 1px solid #e0dddd;
+  border-radius: 0.3rem;
+  margin: 0.6rem 0.5rem;
+  padding: 0.8rem;
+  outline: none;
+  border-radius: 1rem;
+}
+
+.container #yournotes .note-box button {
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+  outline: none;
+  padding: 0.7rem;
+  background-color: #1491df;
+  color: #fff;
+  width: 7.3rem;
+  height: 2.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+header {
+  background-color: #3b3838;
+  min-height: 8vh;
+  color: #fff;
+  min-width: 100vw;
+}
+
+header nav {
+  margin: auto;
+  width: 95vw;
+  min-height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .leftnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .leftnav h1 {
+  font-size: 1.8rem;
+}
+
+header nav .leftnav ul {
+  list-style: none;
+}
+
+header nav .leftnav ul a {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav .leftnav ul a:hover {
+  border-bottom: 0.15rem solid #fff;
+  padding-bottom: 0.2em;
+}
+
+header nav section input {
+  border-radius: 0.6rem;
+  outline: none;
+  padding: 0.8rem;
+  width: 12rem;
+  height: 2.3rem;
+  margin: 0.5rem;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 1000px) {
+  textarea {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    text-align: center;
+  }
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section {
+    margin-bottom: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
